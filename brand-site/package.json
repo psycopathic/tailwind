@@ -1,0 +1,15 @@
+{
+  "name": "brand-site",
+  "version": "1.0.0",
+  "description": "tailwind css project",
+  "main": "index.js",
+  "scripts": {
+    "test": "tailwindcss -i ./input.css -o styles/style.css",
+    "watch": "tailwindcss -i ./input.css -o styles/style.css --watch"
+  },
+  "author": "Psycopathic",
+  "license": "ISC",
+  "devDependencies": {
+    "tailwindcss": "^3.4.14"
+  }
+}
