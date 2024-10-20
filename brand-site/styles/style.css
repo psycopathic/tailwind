@@ -554,12 +554,131 @@ video {
   display: none;
 }
 
+.m-5 {
+  margin: 1.25rem;
+}
+
 .mt-5 {
   margin-top: 1.25rem;
 }
 
+.ml-10 {
+  margin-left: 2.5rem;
+}
+
+.mt-20 {
+  margin-top: 5rem;
+}
+
+.mb-9 {
+  margin-bottom: 2.25rem;
+}
+
+.mt-8 {
+  margin-top: 2rem;
+}
+
+.mb-5 {
+  margin-bottom: 1.25rem;
+}
+
+.mb-8 {
+  margin-bottom: 2rem;
+}
+
+.mt-2 {
+  margin-top: 0.5rem;
+}
+
+.mb-6 {
+  margin-bottom: 1.5rem;
+}
+
+.mt-6 {
+  margin-top: 1.5rem;
+}
+
+.inline {
+  display: inline;
+}
+
 .flex {
   display: flex;
+}
+
+.w-\[\] {
+  width: ;
+}
+
+.w-\[340px\] {
+  width: 340px;
+}
+
+.w-\[3\] {
+  width: 3;
+}
+
+.w-\[340\] {
+  width: 340;
+}
+
+.w-\[300px\] {
+  width: 300px;
+}
+
+.w-\[34\] {
+  width: 34;
+}
+
+.w-\[14rem\] {
+  width: 14rem;
+}
+
+.flex-col {
+  flex-direction: column;
+}
+
+.items-center {
+  align-items: center;
+}
+
+.justify-center {
+  justify-content: center;
+}
+
+.justify-around {
+  justify-content: space-around;
+}
+
+.border {
+  border-width: 1px;
+}
+
+.border-black {
+  --tw-border-opacity: 1;
+  border-color: rgb(0 0 0 / var(--tw-border-opacity));
+}
+
+.border-\[\#\] {
+  border-color: #;
+}
+
+.border-\[\#A\] {
+  border-color: #A;
+}
+
+.border-\[\#AF\] {
+  border-color: #AF;
+}
+
+.border-\[\#AF7\] {
+  --tw-border-opacity: 1;
+  border-color: rgb(170 255 119 / var(--tw-border-opacity));
+}
+
+.border-\[\#AF7452\] {
+  --tw-border-opacity: 1;
+  border-color: rgb(175 116 82 / var(--tw-border-opacity));
 }
 
 .bg-white {
@@ -577,6 +696,34 @@ video {
   background-color: rgb(156 163 175 / var(--tw-bg-opacity));
 }
 
+.p-2 {
+  padding: 0.5rem;
+}
+
+.p-10 {
+  padding: 2.5rem;
+}
+
+.pt-2 {
+  padding-top: 0.5rem;
+}
+
+.pb-2 {
+  padding-bottom: 0.5rem;
+}
+
+.pr-5 {
+  padding-right: 1.25rem;
+}
+
+.pl-5 {
+  padding-left: 1.25rem;
+}
+
+.pt-20 {
+  padding-top: 5rem;
+}
+
 .text-3xl {
   font-size: 1.875rem;
   line-height: 2.25rem;
@@ -589,6 +736,24 @@ video {
 
 .font-bold {
   font-weight: 700;
+}
+
+.font-light {
+  font-weight: 300;
+}
+
+.font-thin {
+  font-weight: 100;
+}
+
+.text-\[\#AF7452\] {
+  --tw-text-opacity: 1;
+  color: rgb(175 116 82 / var(--tw-text-opacity));
+}
+
+.text-black {
+  --tw-text-opacity: 1;
+  color: rgb(0 0 0 / var(--tw-text-opacity));
 }
 
 .underline {
